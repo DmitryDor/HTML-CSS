@@ -1,19 +1,28 @@
-*{
+* {
     padding: 0;
     margin: 0;
     border: 0;
 }
-*,*:before,*:after{
+
+*, *:before, *:after {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
-:focus,:active{outline: none;}
-a:focus,a:active{outline: none;}
 
-nav,footer,header,aside{display: block;}
+:focus, :active {
+    outline: none;
+}
 
-html,body{
+a:focus, a:active {
+    outline: none;
+}
+
+nav, footer, header, aside {
+    display: block;
+}
+
+html, body {
     height: 100%;
     width: 100%;
     font-size: 100%;
@@ -23,71 +32,82 @@ html,body{
     -moz-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
-input,button,textarea{font-family:inherit;}
 
-input::-ms-clear{display: none;}
-button{cursor: pointer;}
-button::-moz-focus-inner {padding:0;border:0;}
-a, a:visited{text-decoration: none;}
-a:hover{text-decoration: none;}
-ul li{list-style: none;}
-img{vertical-align: top;}
-
-h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
-
-.arial{
-    font-family: Arial, sans-serif;
-;
+input, button, textarea {
+    font-family: inherit;
 }
 
-.fontSize{
-    font-size: 20px;
+input::-ms-clear {
+    display: none;
 }
-.italic{
-    font-style: italic;
+
+button {
+    cursor: pointer;
 }
-.font700{
-    font-weight: 700;
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
 }
-.colorred{
-    color: red;
+
+a, a:visited {
+    text-decoration: none;
 }
-.textright{
-    /*text-align: right;*/
-    /*text-align: left;*/
-    /*text-align: center;*/
-    text-align: justify;
+
+a:hover {
+    text-decoration: none;
 }
-.decorarion{
-    /*text-decoration: underline ;*/
-    /*text-decoration: overline;*/
-    text-decoration: line-through;
-    /*text-decoration: none;*/
+
+ul li {
+    list-style: none;
 }
-.shadow{
-    text-shadow: 1px 1px 5px #000000;
+
+img {
+    vertical-align: top;
 }
-.transform{
-    /*text-transform: capitalize;*/
-    /*text-transform: lowercase;*/
-    text-transform: uppercase;
-    /*text-transform: none;*/
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: 400;
 }
-.ident{
-    text-indent: 50px;
+
+
+.example-block {
+    /*padding: 10px 20px 30px 5px;*/
+    /*padding: 10px 25px;*/
+    /*padding: 10px;*/
+    /*margin: 10px 10px 10px 10px;*/
+    /*max-width: 300px;*/
+    border: 1px solid black;
+    padding: 20px;
+    /*display: none;*/
+    /*display: inline-block;*/
+    /*display: inline;*/
+    /*display: block;*/
+    /*overflow: visible;*/
+    /*overflow: hidden;*/
+    /*overflow: scroll;*/
+    /*overflow: auto;*/
+    /*max-height: 35px;*/
+    /*min-height: 200px;*/
+    /*max-height: 200px;*/
+    /*height: 200px;*/
+    /*min-width: 300px;*/
 }
-.spasing{
-    letter-spacing: 5px;
+
+.example-string {
+    padding: 20px;
+    border: 1px solid black;
+    display: inline-block;
+
+
 }
-.wordSpasing{
-    word-spacing: 10px;
-}
-.whiteSpace{
-    /*white-space: nowrap ;*/
-    white-space: normal;
-}
-.lineHeich{
-    line-height: 30px;
+.example-image{
+/*width: 100%;
+    max-width: 500px;
+    min-width: 300px;*/
+    /*height: 100px;*/
+    max-height: 100px;
 }
 
 
